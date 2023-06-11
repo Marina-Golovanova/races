@@ -1,7 +1,8 @@
 import React from "react";
+import { GameField } from "../pages/game-field";
 
 export const App: React.FC = () => {
-  return <div>1</div>;
+  return <GameField />;
 };
 
 export default App;
